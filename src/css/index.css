@@ -1,0 +1,27 @@
+:root {
+  --primary-font: "Inter", sans-serif;
+  --background-color: #ffffff;
+  --text-color: #1c1c1c;
+  --secondary-text-color: #1c1c1c66;
+  --hover-bg-color: #f3f3f3;
+  --text-color-grey: #a4a4a4;
+  --text-color-light-grey: #1c1c1c33;
+  --border-color-grey: #1c1c1c1a;
+}
+
+[data-theme="dark"] {
+  --background-color: #1c1c1c;
+  --text-color: #ffffff;
+  --secondary-text-color: #ffffff66;
+  --hover-bg-color: #323232;
+  --text-color-grey: #777777;
+  --text-color-light-grey: #ffffff33;
+  --border-color-grey: #ffffff1a;
+}
+
+body {
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-family: var(--primary-font);
+}
