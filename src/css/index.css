@@ -6,7 +6,15 @@
   --hover-bg-color: #f3f3f3;
   --text-color-grey: #a4a4a4;
   --text-color-light-grey: #1c1c1c33;
+  --search-btn-bg: #fafbfd;
   --border-color-grey: #1c1c1c1a;
+  --table-header-bg: #f7f9fb;
+  --status-pending-color: #59a8d4;
+  --status-completed-color: #4aa785;
+  --status-inprogress-color: #8a8cd9;
+  --status-approved-color: #ffc555;
+  --status-rejected-color: #1c1c1c66;
+  --checkbox-bg-color: #1c1c1c;
 }
 
 [data-theme="dark"] {
@@ -16,7 +24,15 @@
   --hover-bg-color: #323232;
   --text-color-grey: #777777;
   --text-color-light-grey: #ffffff33;
+  --search-btn-bg: #232323;
   --border-color-grey: #ffffff1a;
+  --table-header-bg: #ffffff0d;
+  --status-pending-color: #59a8d4;
+  --status-completed-color: #4aa785;
+  --status-inprogress-color: #8a8cd9;
+  --status-approved-color: #ffc555;
+  --status-rejected-color: #ffffff66;
+  --checkbox-bg-color: #c6c7f8;
 }
 
 body {
