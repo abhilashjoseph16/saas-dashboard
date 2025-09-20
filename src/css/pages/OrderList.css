@@ -118,7 +118,7 @@
 }
 
 .order-list-table tr:hover {
-  background-color: var(--hover-bg-color, #eaeaea);
+  background-color: var(--hover-bg-color);
 }
 
 .order-list-table td {
@@ -129,7 +129,7 @@
 }
 
 .selected-row {
-  background-color: var(--selected-row-bg, #d1e7ff);
+  background-color: var(--hover-bg-color);
 }
 
 .order-list-table input[type="checkbox"] {
