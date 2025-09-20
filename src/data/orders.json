@@ -6,8 +6,8 @@
     "address": "Meadow Lane Oakland",
     "date": "Just now",
     "status": "In Progress",
-    "iconLight": "../src/assets/icons/profile6.png",
-    "iconDark": "../src/assets/icons/profile6.png"
+    "iconLight": "icons/profile6.png",
+    "iconDark": "icons/profile6.png"
   },
   {
     "id": "#CM9802",
@@ -16,8 +16,8 @@
     "address": "Larry San Francisco",
     "date": "A minute ago",
     "status": "Completed",
-    "iconLight": "../src/assets/icons/profile10.png",
-    "iconDark": "../src/assets/icons/profile10.png"
+    "iconLight": "icons/profile10.png",
+    "iconDark": "icons/profile10.png"
   },
   {
     "id": "#CM9803",
@@ -26,8 +26,8 @@
     "address": "Bagwell Avenue Ocala",
     "date": "1 hour ago",
     "status": "Pending",
-    "iconLight": "../src/assets/icons/profile7.png",
-    "iconDark": "../src/assets/icons/profile7.png"
+    "iconLight": "icons/profile7.png",
+    "iconDark": "icons/profile7.png"
   },
   {
     "id": "#CM9804",
@@ -36,8 +36,8 @@
     "address": "Washburn Baton Rouge",
     "date": "Yesterday",
     "status": "Approved",
-    "iconLight": "../src/assets/icons/profile8.png",
-    "iconDark": "../src/assets/icons/profile8.png"
+    "iconLight": "icons/profile8.png",
+    "iconDark": "icons/profile8.png"
   },
   {
     "id": "#CM9805",
@@ -46,8 +46,8 @@
     "address": "Nest Lane Olivette",
     "date": "Feb 2, 2023",
     "status": "Rejected",
-    "iconLight": "../src/assets/icons/profile9.png",
-    "iconDark": "../src/assets/icons/profile9.png"
+    "iconLight": "icons/profile9.png",
+    "iconDark": "icons/profile9.png"
   },
   {
     "id": "#CM9806",
@@ -56,8 +56,8 @@
     "address": "Meadow Lane Oakland",
     "date": "Just now",
     "status": "In Progress",
-    "iconLight": "../src/assets/icons/profile6.png",
-    "iconDark": "../src/assets/icons/profile6.png"
+    "iconLight": "icons/profile6.png",
+    "iconDark": "icons/profile6.png"
   },
   {
     "id": "#CM9807",
@@ -66,8 +66,8 @@
     "address": "Larry San Francisco",
     "date": "A minute ago",
     "status": "Completed",
-    "iconLight": "../src/assets/icons/profile10.png",
-    "iconDark": "../src/assets/icons/profile10.png"
+    "iconLight": "icons/profile10.png",
+    "iconDark": "icons/profile10.png"
   },
   {
     "id": "#CM9808",
@@ -76,8 +76,8 @@
     "address": "Bagwell Avenue Ocala",
     "date": "1 hour ago",
     "status": "Pending",
-    "iconLight": "../src/assets/icons/profile7.png",
-    "iconDark": "../src/assets/icons/profile7.png"
+    "iconLight": "icons/profile7.png",
+    "iconDark": "icons/profile7.png"
   },
   {
     "id": "#CM9809",
@@ -86,8 +86,8 @@
     "address": "Washburn Baton Rouge",
     "date": "Yesterday",
     "status": "Approved",
-    "iconLight": "../src/assets/icons/profile8.png",
-    "iconDark": "../src/assets/icons/profile8.png"
+    "iconLight": "icons/profile8.png",
+    "iconDark": "icons/profile8.png"
   },
   {
     "id": "#CM9810",
@@ -96,7 +96,7 @@
     "address": "Nest Lane Olivette",
     "date": "Feb 2, 2023",
     "status": "Rejected",
-    "iconLight": "../src/assets/icons/profile9.png",
-    "iconDark": "../src/assets/icons/profile9.png"
+    "iconLight": "icons/profile9.png",
+    "iconDark": "icons/profile9.png"
   }
 ]

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../css/pages/OrderList.css";
 import ordersData from "../data/orders.json";
 import ThemedIcon from "../components/ThemedIcon";
@@ -16,6 +16,20 @@ import ArrowLeftLight from "../assets/icons/ArrowLeft.png";
 import ArrowLeftDark from "../assets/icons/ArrowLeft-dark.png";
 import ArrowRightLight from "../assets/icons/ArrowRight.png";
 import ArrowRightDark from "../assets/icons/ArrowRight-dark.png";
+
+import profile6 from '../assets/icons/profile6.png';
+import profile7 from '../assets/icons/profile7.png';
+import profile8 from '../assets/icons/profile8.png';
+import profile9 from '../assets/icons/profile9.png';
+import profile10 from '../assets/icons/profile10.png';
+
+const images = {
+  'icons/profile6.png': profile6,
+  'icons/profile7.png': profile7,
+  'icons/profile8.png': profile8,
+  'icons/profile9.png': profile9,
+  'icons/profile10.png': profile10
+};
 
 function OrderList() {
   const [orders, setOrders] = useState(ordersData);
@@ -118,8 +132,8 @@ function OrderList() {
                 <td>{order.id}</td>
                 <td>
                   <ThemedIcon
-                    lightSrc={order.iconLight}
-                    darkSrc={order.iconDark}
+                    lightSrc={images[order.iconLight]}
+                    darkSrc={images[order.iconDark]}
                     className="order-list-user-icon"
                   />
                   {order.user}
