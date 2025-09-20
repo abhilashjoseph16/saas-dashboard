@@ -4,6 +4,7 @@
   --text-color: #1c1c1c;
   --secondary-text-color: #1c1c1c66;
   --hover-bg-color: #f3f3f3;
+  --hover-bg-light-grey: #1c1c1c0d;
   --text-color-grey: #a4a4a4;
   --text-color-light-grey: #1c1c1c33;
   --search-btn-bg: #fafbfd;
@@ -22,6 +23,7 @@
   --text-color: #ffffff;
   --secondary-text-color: #ffffff66;
   --hover-bg-color: #323232;
+  --hover-bg-light-grey: #ffffff1a;
   --text-color-grey: #777777;
   --text-color-light-grey: #ffffff33;
   --search-btn-bg: #232323;

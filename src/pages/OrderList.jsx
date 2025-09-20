@@ -12,6 +12,10 @@ import SearchIcon from "../assets/icons/Search.png";
 import SearchIconDark from "../assets/icons/Search-dark.png";
 import CalendarIcon from "../assets/icons/CalendarBlank.png";
 import CalendarIconDark from "../assets/icons/CalendarBlank-dark.png";
+import ArrowLeftLight from "../assets/icons/ArrowLeft.png";
+import ArrowLeftDark from "../assets/icons/ArrowLeft-dark.png";
+import ArrowRightLight from "../assets/icons/ArrowRight.png";
+import ArrowRightDark from "../assets/icons/ArrowRight-dark.png";
 
 function OrderList() {
   const [orders, setOrders] = useState(ordersData);
@@ -152,6 +156,19 @@ function OrderList() {
           })}
         </tbody>
       </table>
+      <div className="order-list-pagination">
+        <button className="pagination-arrow">
+          <ThemedIcon lightSrc={ArrowLeftLight} darkSrc={ArrowLeftDark} />
+        </button>
+        {[1, 2, 3, 4, 5].map((pageNum) => (
+          <button key={pageNum} className="pagination-number">
+            {pageNum}
+          </button>
+        ))}
+        <button className="pagination-arrow">
+          <ThemedIcon lightSrc={ArrowRightLight} darkSrc={ArrowRightDark} />
+        </button>
+      </div>
     </div>
   );
 }
