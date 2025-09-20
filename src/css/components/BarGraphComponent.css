@@ -1,0 +1,24 @@
+.bar-graph-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 432px;
+  height: 252px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--table-header-bg);
+  border-radius: 16px;
+}
+
+.bar-graph-title {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  user-select: none;
+}
+
+.bar-graph-chart {
+  max-width: 100%;
+  object-fit: contain;
+}

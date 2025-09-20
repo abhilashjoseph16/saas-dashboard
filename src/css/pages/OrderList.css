@@ -22,7 +22,7 @@
   height: 44px;
   padding: 0 12px;
   margin-bottom: 12px;
-  background-color: var(--table-header-bg, #f5f5f5);
+  background-color: var(--table-header-bg);
   border-radius: 8px;
   user-select: none;
 }
@@ -34,13 +34,13 @@
 
 .order-list-icon {
   cursor: pointer;
-  color: var(--secondary-text-color, #555);
+  color: var(--secondary-text-color);
   font-size: 18px;
   transition: color 0.3s ease;
 }
 
 .order-list-icon:hover {
-  color: var(--text-color, #222);
+  color: var(--text-color);
 }
 
 .order-list-search {
@@ -51,6 +51,7 @@
 }
 
 .order-list-search input {
+  padding-left: 26px;
   height: 30px;
   width: 165px;
   font-size: 14px;
@@ -67,7 +68,6 @@
 }
 
 .order-list-search input::placeholder {
-  padding-left: 26px;
   color: var(--text-color-light-grey);
 }
 
@@ -85,7 +85,7 @@
 .order-list-table th,
 .order-list-table td {
   padding: 10px 12px;
-  border-bottom: 1px solid var(--border-color-grey, #ddd);
+  border-bottom: 1px solid var(--border-color-grey);
   text-align: left;
   font-size: 14px;
   vertical-align: middle;

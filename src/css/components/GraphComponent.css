@@ -1,0 +1,76 @@
+.graph-component {
+  width: 662px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.graph-header {
+  width: 100%;
+  display: flex;
+  gap: 34px;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.graph-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  user-select: none;
+  color: var(--text-color);
+}
+
+.week-labels {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text-color);
+}
+.week-labels strong {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.current-week{
+    margin-right: 20px;
+}
+
+.label-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.current-week-dot {
+  background-color: #1c1c1c;
+}
+
+.previous-week-dot {
+  background-color: #a8c5da;
+}
+
+[data-theme="dark"] .current-week-dot {
+  background-color: #c6c7f8;
+}
+
+[data-theme="dark"] .previous-week-dot {
+  background-color: #a8c5da;
+}
+
+.graph-chart {
+  width: 100%;
+  height: auto;
+  max-height: 252px;
+  object-fit: contain;
+  display: block;
+}

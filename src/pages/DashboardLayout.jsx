@@ -7,7 +7,7 @@ import RightBar from "../components/RightBar";
 
 function DashboardLayout() {
   const [isSidebarOpen, setSidebarOpen] = useState(true);
-  const [isRightBarOpen, setRightBarOpen] = useState(false);
+  const [isRightBarOpen, setRightBarOpen] = useState(true);
 
   const toggleSidebar = () => setSidebarOpen(!isSidebarOpen);
   const toggleRightBar = () => setRightBarOpen(!isRightBarOpen);
